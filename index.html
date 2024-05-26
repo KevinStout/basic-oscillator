@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>Basic Oscillator</title>
+  </head>
+  <body>
+    <h1>Basic Oscillator</h1>
+    <label for="oscillator-type">Oscillator Type</label>
+    <select id="oscillator-type">
+      <option value="sine">Sine</option>
+      <option value="square">Square</option>
+      <option value="sawtooth">Sawtooth</option>
+      <option value="triangle">Triangle</option>
+    </select>
+    <label for="oscillator">oscillator</label>
+    <input
+      type="range"
+      id="oscillator"
+      min="20"
+      max="2000"
+      value="440"
+    />
+    <label for="volume">Volume</label>
+    <input
+      type="range"
+      id="volume"
+      min="0"
+      max="100"
+      value="0"
+    />
+    <label for="oscillator2-type">Oscillator2 Type</label>
+    <select id="oscillator2-type">
+      <option value="sine">Sine</option>
+      <option value="square">Square</option>
+      <option value="sawtooth">Sawtooth</option>
+      <option value="triangle">Triangle</option>
+    </select>
+    <label for="oscillator2">Oscillator 2</label>
+    <input
+      type="range"
+      id="oscillator2"
+      min="20"
+      max="2000"
+      value="440"
+    />
+  </body>
+
+  <script src="index.js"></script>
+</html>
